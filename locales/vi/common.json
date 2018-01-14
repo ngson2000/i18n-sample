@@ -1,0 +1,10 @@
+{
+  input: {
+    placeholder: "chổ giử đồ"
+  },
+  nav: {
+    home: 'Trang nha',
+    page1: 'Trang Mot',
+    page2: 'Trang Hai'
+  }
+}

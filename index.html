@@ -63,6 +63,7 @@
         }
 
         i18next.on('languageChanged', () => {
+          jqueryI18next.init(i18next, $);
           $('.nav').localize();
           $('.content').localize();
         });

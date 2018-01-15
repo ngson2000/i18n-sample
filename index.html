@@ -39,9 +39,7 @@
           ns: ['common'],
           defaultNS: 'common',
           backend: {
-            // load from i18n-sample repo
-            loadPath: 'https://raw.githubusercontent.com/ngson2000/i18n-sample/master/locales/{{lng}}/{{ns}}.json',
-            crossDomain: true
+            loadPath: '/locales/{{lng}}/{{ns}}.json',
           }
         }, function(err, t) {
           // for options see

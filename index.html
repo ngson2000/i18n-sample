@@ -47,7 +47,9 @@
           // for options see
           // https://github.com/i18next/jquery-i18next#initialize-the-plugin
           jqueryI18next.init(i18next, $);
-          updateContent();
+          $('.nav').localize();
+          $('.content').localize();
+
         });
 
 
@@ -56,8 +58,6 @@
         function updateContent() {
           // start localizing, details:
           // https://github.com/i18next/jquery-i18next#usage-of-selector-function
-          $('.nav').localize();
-          $('.content').localize();
         }
 
         function changeLng(lng) {
